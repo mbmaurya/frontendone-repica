@@ -191,3 +191,41 @@ header nav ul li .dropdown .dropdown-menu.show li a {
   background-color: #ffffff;
   color: #2945ff;
 }
+
+.tech-we-use {
+  padding: 80px 0px;
+}
+
+.tech-we-use h3 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  color: #18191f;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.tech-we-use ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.tech-we-use ul li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 64px;
+}
+
+.tech-we-use ul li:last-of-type {
+  margin-right: 0;
+}
+
+.tech-we-use ul li p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  color: #31475e;
+  margin-top: 16px;
+}
