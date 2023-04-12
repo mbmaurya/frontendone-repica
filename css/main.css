@@ -196,7 +196,7 @@ header nav ul li .dropdown .dropdown-menu.show li a {
   padding: 80px 0px;
 }
 
-.tech-we-use h3 {
+.section-title {
   font-weight: 600;
   font-size: 48px;
   line-height: 64px;
@@ -229,3 +229,53 @@ header nav ul li .dropdown .dropdown-menu.show li a {
   color: #31475e;
   margin-top: 16px;
 }
+
+/*--------- service section starts here ------------------*/
+
+.service-section {
+  padding-bottom: 80px;
+}
+
+.service-section .service-box {
+  border: 1px solid #f1f1f1;
+  box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+  padding: 40px 32px;
+}
+
+.service-section .service-box img {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.service-section .service-box h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #18191f;
+  margin-bottom: 12px;
+}
+
+.service-section .service-box p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #31475e;
+  margin-bottom: 40px;
+}
+
+.service-section .service-box a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #2945ff;
+  text-decoration: none;
+}
+
+.service-section .service-box a::after {
+  content: url("../images/icons/right-arrow.svg");
+  margin-top: 6px;
+  position: absolute;
+  margin-left: 5px;
+}
+/*--------- service section ends here ------------------*/
