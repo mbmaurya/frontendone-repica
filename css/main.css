@@ -256,7 +256,8 @@ header nav ul li .dropdown .dropdown-menu.show li a {
   margin-bottom: 12px;
 }
 
-.service-section .service-box p {
+.service-section .service-box p,
+.service-section .service-row p {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -264,7 +265,9 @@ header nav ul li .dropdown .dropdown-menu.show li a {
   margin-bottom: 40px;
 }
 
-.service-section .service-box a {
+.read-more {
+  display: inline-block;
+  position: relative;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -272,10 +275,24 @@ header nav ul li .dropdown .dropdown-menu.show li a {
   text-decoration: none;
 }
 
-.service-section .service-box a::after {
+.read-more::after {
   content: url("../images/icons/right-arrow.svg");
-  margin-top: 6px;
   position: absolute;
   margin-left: 5px;
+}
+
+.service-section .service-row {
+  padding: 80px 0px;
+}
+
+.service-section .service-row h3 {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.service-section .service-row .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 /*--------- service section ends here ------------------*/
