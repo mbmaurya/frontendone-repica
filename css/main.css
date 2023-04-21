@@ -404,3 +404,82 @@ header nav ul li .dropdown .dropdown-menu.show li a {
 }
 
 /*--------- portfolio section ends here --------------------*/
+
+/*--------- client speak section starts here --------------------*/
+
+.section-client-speak {
+  padding: 80px 0px;
+  background-color: #fcfcfc;
+}
+
+.section-client-speak .slider-content {
+  min-width: 350px;
+  height: 400px;
+  margin-right: 30px;
+  position: relative;
+}
+
+.section-client-speak .slider-content .slider-popup {
+  width: 100%;
+  height: 205px;
+  box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 34px 40px;
+  text-align: center;
+}
+
+.section-client-speak .slider-content .slider-popup h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #18191f;
+}
+
+.section-client-speak .slider-content .slider-popup p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #18191f;
+}
+
+.section-client-speak .slider-content .slider-triangle {
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  border-top: 24px solid #fff;
+  border-left: 24px solid transparent;
+  border-right: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+  position: absolute;
+  left: calc(50% - 24px);
+  bottom: 147px;
+}
+
+.section-client-speak .slider-content .client-details {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.section-client-speak .slider-content .client-details img {
+  display: block;
+  margin: 0 auto;
+}
+
+.section-client-speak .slider-content .client-details h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #18191f;
+  margin-top: 8px;
+}
+
+.section-client-speak .slider-content .client-details p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #18191f;
+}
+
+/*--------- client speak section ends here --------------------*/
