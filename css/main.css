@@ -67,6 +67,24 @@ header nav ul li:last-of-type a:hover {
   box-shadow: none;
 }
 
+.white-button {
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 38px;
+  padding: 24px;
+  color: #2945ff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
+}
+
+.white-button:hover {
+  color: #000000;
+  box-shadow: none;
+}
+
 header nav ul li a {
   color: #31475e;
   text-decoration: none;
@@ -483,3 +501,30 @@ header nav ul li .dropdown .dropdown-menu.show li a {
 }
 
 /*--------- client speak section ends here --------------------*/
+
+/*--------- work with section starts here --------------------*/
+
+.work-with-us {
+  padding: 150px 0px;
+  background-color: #3fb984;
+  background-image: url("../images/thumbs-up.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.work-with-us .section-title {
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.work-with-us p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 40px;
+}
+
+/*--------- work with section ends here --------------------*/
